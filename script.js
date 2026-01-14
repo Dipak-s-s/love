@@ -1,6 +1,6 @@
 function login() {
-    let user = document.getElementById("username").value;
-    let pass = document.getElementById("password").value;
+    let user = document.getElementById("username").value.trim();
+    let pass = document.getElementById("password").value.trim();
 
     if (user === "piu" && pass === "lub u") {
         window.location.href = "memories.html";
